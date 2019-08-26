@@ -15,7 +15,6 @@
 		338747522313D7CC00601F5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 338747512313D7CC00601F5A /* main.m */; };
 		3387475C2313D7CD00601F5A /* ZekeUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3387475B2313D7CD00601F5A /* ZekeUIKitTests.m */; };
 		338747672313D7CD00601F5A /* ZekeUIKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338747662313D7CD00601F5A /* ZekeUIKitUITests.m */; };
-		338747772313D83000601F5A /* ZekeUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 338747762313D83000601F5A /* ZekeUIKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +51,6 @@
 		338747622313D7CD00601F5A /* ZekeUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZekeUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338747662313D7CD00601F5A /* ZekeUIKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZekeUIKitUITests.m; sourceTree = "<group>"; };
 		338747682313D7CD00601F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		338747752313D83000601F5A /* ZekeUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZekeUIKit.h; sourceTree = "<group>"; };
-		338747762313D83000601F5A /* ZekeUIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZekeUIKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +101,6 @@
 		338747412313D7C900601F5A /* ZekeUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				338747742313D7F000601F5A /* ZekeUIKit */,
 				338747422313D7C900601F5A /* AppDelegate.h */,
 				338747432313D7C900601F5A /* AppDelegate.m */,
 				338747452313D7C900601F5A /* ViewController.h */,
@@ -134,15 +130,6 @@
 				338747682313D7CD00601F5A /* Info.plist */,
 			);
 			path = ZekeUIKitUITests;
-			sourceTree = "<group>";
-		};
-		338747742313D7F000601F5A /* ZekeUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				338747752313D83000601F5A /* ZekeUIKit.h */,
-				338747762313D83000601F5A /* ZekeUIKit.m */,
-			);
-			path = ZekeUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +265,6 @@
 				338747472313D7C900601F5A /* ViewController.m in Sources */,
 				338747522313D7CC00601F5A /* main.m in Sources */,
 				338747442313D7C900601F5A /* AppDelegate.m in Sources */,
-				338747772313D83000601F5A /* ZekeUIKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
